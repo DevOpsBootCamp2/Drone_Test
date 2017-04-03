@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  server:
+    image: nsaparia/example-webserver:production
+    ports:
+      - "8080:8080"
